@@ -75,8 +75,13 @@
 ## Set Up Django Project
         django-admin startproject DbActivities 
         cd myproject
-## Start The App
+## Start The App & add Into the settings.py file. 
       python manage.py startapp server1
+
+      INSTALLED_APPS = [
+      .......,
+      'server1',
+      ]
 
 ## Create Folder "Templates" & "static" to store html files and images ,css, js files in Project name dir not in Actual project folder see in stracture.
     mkdir templates
