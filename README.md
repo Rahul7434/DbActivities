@@ -44,6 +44,38 @@
     - Database Sizes: Offering detailed information on the size of databases, allowing administrators to manage disk space effectively and plan for future growth.
 
      // We can Add more Features //
+## Installation
+- **Update Your System (make sure your system packages are up to date:)**
+    ```
+      sudo dnf update
+    ```
+- **Install Python and pip (CentOS 9 should come with Python 3 pre-installed, but you can install it and pip)**
+    ```
+        sudo dnf install python3 python3-pip
+    ```
+- **Install Django**
+    ```
+        pip install django
+    ```
+- **Set Up a Virtual Environment (Optional but Recommended)**
+    ```
+        # Install the virtualenv package if not already installed
+        pip3 install virtualenv
+      
+        # Create a new virtual environment
+        virtualenv myenv
+      
+        # Activate the virtual environment
+        source myenv/bin/activate
+    ```
+- **Install Required Packages for the Project (Make sure to install any additional packages you need for your project. Forexample,if you're using PostgreSQL, install psycopg2.)**
+    ```
+       pip install psycopg2
+    ```
+## Usage
+
+
+    
 
 
       
