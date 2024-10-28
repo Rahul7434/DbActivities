@@ -150,14 +150,19 @@ STATICFILES_DIRS = [
     - **Host Ip list**
     ```
         After Click on Host Ip will establish connecton on postgresql server & it will list out
-        All Activities IN Button's Format even connection related info if fails will show              error msg.
+        All Activities IN Button's Format even connection related info if fails will show error msg.
     ```
 
 ![home](https://github.com/user-attachments/assets/7c245b34-5b49-4c2d-ade2-814ad8c99a7e)
 
-## After Click on the host it will looks like
+## After Click on the host it will look likes
 ![options](https://github.com/user-attachments/assets/dd319a3d-a980-4e5d-a775-b87de52ac407)
 
+## If You click on any options lets say if you click on Db_sizes It will show the result on the same page with Download options. 
+![db_size](https://github.com/user-attachments/assets/1096433b-7216-4de3-b7c2-07e44565eb9a)
+
+
+## All activities you will see on same page with Responsive Interface.
 
 
 
