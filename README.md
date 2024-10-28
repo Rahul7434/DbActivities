@@ -92,7 +92,47 @@
               mkdir img   --to contain images .jpg, .png etc
               mkdir css   --to contain cdd files .js
               mkdir js    --to contain javascript files .js
-  - **It will Look like this**
+## Add templates & static In Setting.py
+  - **it points to a templates directory at the root of your project**
+  - **The location where Django will collect static files**
+  ```
+import os
+from pathlib import Path
+
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# TEMPLATES configuration
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Add your template directory here
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
+```
+  # Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'  # URL prefix for static files
+
+# The location where Django will collect static files
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),  # Add your static files directory here
+]
+
+## For example, static/css/style.css, it will be accessible at http://127.0.0.1:8000/static/css/style.css
+```
+
+## It will Look like this.
 ![Screenshot 2024-10-29 001858](https://github.com/user-attachments/assets/59d42616-3573-46b4-a82a-87739bd77b7b)
 
 ## Add app into App DICT In Settings.py file.
