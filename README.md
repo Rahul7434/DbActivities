@@ -20,3 +20,16 @@
      - tests.py
      - views.py
     ```
+  - **static**
+      - css
+          - bpt_mis.css
+          - bot.css
+      - img
+          - b3.jpg
+          - bg2.jpg
+          - blogo.png
+          - images.png
+      - js
+          - bot.js
+          - jquery.js
+  - **            
