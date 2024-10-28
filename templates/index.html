@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bfl.com</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'css/bot.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bpt_mis.css' %}">
+
+	<!--<style>
+		body{
+			background-image: url({% static 'img/bg2.jpg' %});
+           		 background-size: cover;
+           		 background-position: center;
+           		 background-repeat: no-repeat;
+           		 height: 100vh;
+			 background-attachment:fixed;
+
+
+		}
+	</style>-->
+</head>
+<body class="bg-dark">
+
+	<!--********************************\-- Header Content--/******************************-->
+
+	<div class="container">
+		<div class="row">
+   			 <div class="col-3">
+				<img src="{% static 'img/blogo.png' %}" class="rounded img-fluid" alt="finserv logo">
+			 </div>
+			 <div class="col-9 text-white text-start border">
+				 <h1 class="mt-4 fs-1 fw-bold text-center border-bottom"> Bajaj Finserv PVT LTD</h1>
+			 </div>
+		</div>
+	</div>
+
+	<!--********************************\--Middle Content--/******************************-->
+
+	<div class="container-fluid mt-2 p-2">
+
+		<div class="row">
+
+			<!--*******Side bar--/*******-->
+			
+			<div class="col-2 text-center ">
+
+				<h4 class="alert-heading text-center text-white fw-bold border-bottom border-top border-secondary"> Click On IP </h4>
+
+
+				<form action="{% url 'options' '127.0.0.1' %}" method="post" target="iframe_a" class="mt-2">
+                			{% csrf_token %}
+                			<button type="submit" class="btn btn-dark">connect 127.0.0.1</button>
+           			</form>
+
+				<form action="{% url 'options' '127.0.0.1' %}" method="post" class="mt-2" target="iframe_a">
+                                        {% csrf_token %}
+                                        <button type="submit" class="btn btn-dark">Connect to 127.0.0.1</button>
+                                </form>
+
+				<form action="{% url 'options' '127.0.0.1' %}" method="post" target="iframe_a" class="mt-2">
+                                        {% csrf_token %}
+                                        <button type="submit" class="btn btn-dark">Connect to 127.0.0.1</button>
+                                </form>
+
+				<form action="{% url 'options' '127.0.0.1' %}" method="post" target="iframe_a" class="mt-2">
+                                        {% csrf_token %}
+                                        <button type="submit" class="btn btn-dark">Connect to 127.0.0.1</button>
+                                </form>
+			</div>
+
+			<!--*******Iframe--/*******-->
+
+			<div class="col-9">
+
+				<iframe src="" name="iframe_a" height="200px" width="100%" title="Options" class="text-white">
+
+				
+				</iframe>
+			
+                	</div>
+
+		</div>
+	</div>
+
+	<!--********************************\--Iframe--/******************************-->
+
+	<div class="container text-center">
+
+		<iframe src="" name="iframe_b" height="400px" width="100%" title="Options" class="text-white">
+
+                </iframe>
+
+	</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'js/bot.js' %}"></script>
+<script src="{% static 'js/jquery.js' %}"></script>
+</body>
+</html>
