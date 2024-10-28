@@ -92,8 +92,8 @@
               mkdir img   --to contain images .jpg, .png etc
               mkdir css   --to contain cdd files .js
               mkdir js    --to contain javascript files .js
-
-    ![image](https://github.com/user-attachments/assets/5413e5d5-d845-4dfd-89a3-21d534e89314)
+  - **It will Look like this**
+![Screenshot 2024-10-29 001858](https://github.com/user-attachments/assets/59d42616-3573-46b4-a82a-87739bd77b7b)
 
 ## Add app into App DICT In Settings.py file.
 
