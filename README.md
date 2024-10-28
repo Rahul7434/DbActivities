@@ -63,10 +63,10 @@
         pip3 install virtualenv
       
         # Create a new virtual environment
-        virtualenv myenv
+        virtualenv python_Env
       
         # Activate the virtual environment
-        source myenv/bin/activate
+        source python_Env/bin/activate
     ```
 - **Install Required Packages for the Project (Make sure to install any additional packages you need for your project. Forexample,if you're using PostgreSQL, install psycopg2.)**
     ```
@@ -89,10 +89,6 @@
               mkdir js    --to contain javascript files .js
 ## Add app into App DICT In Settings.py file.
 
-      
-
-
-    
 
 
       
