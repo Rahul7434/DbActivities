@@ -132,10 +132,19 @@ STATICFILES_DIRS = [
 ## For example, static/css/style.css, it will be accessible at http://127.0.0.1:8000/static/css/style.css
 ```
 
-## It will Look like this.
-![Screenshot 2024-10-29 001858](https://github.com/user-attachments/assets/59d42616-3573-46b4-a82a-87739bd77b7b)
-
-## Add app into App DICT In Settings.py file.
+## Create and Apply makeMigrations & Migrate.
+  ```
+      python manage.py makemigrations
+      python manage.py migrate
+  ```
+## Run The Server.
+  ```
+  python manage.py runserver
+  ```
+## Access Your Application Open your web browser and go to 
+  ```
+      http://127.0.0.1:8000/.
+  ```
 
 
 
