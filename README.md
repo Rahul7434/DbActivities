@@ -21,6 +21,7 @@
      - views.py
     ```
   - **static**
+    ```
       - css
           - bpt_mis.css
           - bot.css
@@ -32,4 +33,5 @@
       - js
           - bot.js
           - jquery.js
+    ```
   - **            
