@@ -146,6 +146,22 @@ STATICFILES_DIRS = [
       http://127.0.0.1:8000/.
   ```
 
+## You will See First Interface of Portal. 
+    - **Host Ip list**
+    ```
+        After Click on Host Ip will establish connecton on postgresql server & it will list out
+        All Activities IN Button's Format even connection related info if fails will show              error msg.
+    ```
+
+![home](https://github.com/user-attachments/assets/7c245b34-5b49-4c2d-ade2-814ad8c99a7e)
+
+## After Click on the host it will looks like
+![options](https://github.com/user-attachments/assets/dd319a3d-a980-4e5d-a775-b87de52ac407)
+
+
+
+
+
 
 
       
