@@ -1,1 +1,1 @@
-# Postgressql_Automate_Daily_monthly_Activities_With_Python_Django
+# Postgresql_Automate_Daily_monthly_Activities_With_Python_Django
