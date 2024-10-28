@@ -1,5 +1,5 @@
 # Postgresql_Automate_Daily_monthly_Activities_With_Python_Django
-## Project Structure
+## Structure
 - **DbActivities**
   - **DbActivities**
   ```
@@ -34,4 +34,11 @@
           - bot.js
           - jquery.js
     ```
-  - **            
+  - **templates**
+    ```
+      - user_access.html
+      - optios.html
+      - index.hhtml
+      - db_size.html
+    ```
+  - manage.py        
