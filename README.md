@@ -72,7 +72,28 @@
     ```
        pip install psycopg2
     ```
-## Usage
+## Set Up Django Project
+    ```
+        django-admin startproject DbActivities 
+        cd myproject
+    ```
+## Start The App
+    ```
+      python manage.py startapp server1
+    ```
+## Create Folder "Templates" & "static" to store html files and images ,css, js files in Project name dir not in Actual project folder see in stracture.
+  ```
+    mkdir templates
+          cd templates
+              html..files
+    mkdir static
+          cd static
+              mkdir img   --to contain images .jpg, .png etc
+              mkdir css   --to contain cdd files .js
+              mkdir js    --to contain javascript files .js
+## Add app into App DICT In Settings.py file.
+
+      
 
 
     
